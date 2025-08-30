@@ -104,9 +104,6 @@ The token must have the following permissions:
    Replace `XXXXXXXXXXXXXXXXXXX` with:
    - `GITHUB_TOKEN`: your personal access token from [GitHub Settings → Developer settings → Personal access tokens](https://github.com/settings/tokens)
 
-> ⚠️ **Note:** To use **PortfolioHub**, you need a personal GitHub access token with the appropriate permissions. **Never share your token publicly.**
-
-
 4. **Run the Application**
    ```bash
    npm run dev
