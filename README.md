@@ -8,7 +8,7 @@
 ---
 
 ## 🎥 Demo
-![Demo](./demo.gif)
+![Demo](./images/demo.gif)
 
 ---
 
