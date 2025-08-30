@@ -113,7 +113,7 @@ El token debe tener los siguientes permisos:
    ```
    La aplicación estará disponible en [http://localhost:3000](http://localhost:3000)
 
-<img src="images/execution.png" alt="Execution" width="400"/>
+   <img src="images/execution.png" alt="Execution" width="400"/>
 
 6. **Construir para Producción**
    ```bash
