@@ -17,11 +17,7 @@
 - [Instalación y Configuración](#-instalación-y-configuración)
 - [Estructura del Proyecto](#-estructura-del-proyecto)
 - [Uso y Personalización](#-uso-y-personalización)
-- [Despliegue](#-despliegue)
-- [Contribución](#-contribución)
 - [Licencia](#-licencia)
-- [Alternativas de Uso](#-alternativas-de-uso)
-- [Soporte](#-soporte)
 - [Próximas Funcionalidades](#-próximas-funcionalidades)
 
 ---
