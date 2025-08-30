@@ -1,10 +1,10 @@
-# PortfolioHub - Tu Dashboard de GitHub
-
-## 🎥 Demo
 ![PortfolioHub](https://img.shields.io/badge/PortfolioHub-GitHub%2520Portfolio%2520Dashboard-blue)
 ![Next.js](https://img.shields.io/badge/Next.js-13.0+-black?logo=next.js)
 ![React](https://img.shields.io/badge/React-18.0+-61dafb?logo=react)
 ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38b2ac?logo=tailwind-css)
+# PortfolioHub - Tu Dashboard de GitHub
+
+## 🎥 Demo
 ![Demo](./images/demo.gif)
 
 ---
@@ -23,7 +23,8 @@
 ## 🚀 Descripción del Proyecto
 PortfolioHub es una aplicación web moderna construida con Next.js que permite a los desarrolladores crear un portfolio personalizado utilizando datos de su cuenta de GitHub. La aplicación requiere un token de acceso personal de GitHub para obtener información detallada del usuario y presentarla en un dashboard visualmente atractivo con estadísticas, gráficos y elementos interactivos.
 
----
+## 🎥 Demo
+![Demo](./images/demo.gif)
 
 ## ✨ Características y Funcionalidades
 
