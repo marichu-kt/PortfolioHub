@@ -17,9 +17,8 @@
 - [Instalación y Configuración](#-instalación-y-configuración)
 - [Estructura del Proyecto](#-estructura-del-proyecto)
 - [Uso y Personalización](#-uso-y-personalización)
-- [Licencia](#-licencia)
 - [Próximas Funcionalidades](#-próximas-funcionalidades)
-
+- [Licencia](#-licencia)
 ---
 
 ## 🚀 Descripción del Proyecto
