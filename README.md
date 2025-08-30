@@ -4,7 +4,7 @@
 ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38b2ac?logo=tailwind-css)
 # PortfolioHub - Tu Dashboard de GitHub
 
----
+![Banner](images/banner.png)
 
 ## 📋 Tabla de Contenidos
 - [Descripción del Proyecto](#-descripción-del-proyecto)
