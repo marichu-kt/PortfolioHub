@@ -114,6 +114,9 @@ El token debe tener los siguientes permisos:
    Replace `XXXXXXXXXXXXXXXXXXX` with:
    - `GITHUB_TOKEN`: your personal access token from [GitHub Settings → Developer settings → Personal access tokens](https://github.com/settings/tokens)
 
+> ⚠️ **Nota:** Recuerda que para usar **PortfolioHub** necesitas un token de acceso personal de GitHub con los permisos adecuados. **Nunca compartas tu token públicamente.**
+
+
 4. **Ejecutar la Aplicación**
    ```bash
    npm run dev
@@ -177,19 +180,17 @@ portfoliohub/
 ├── package.json           # Dependencias y scripts
 └── README.md              # Este archivo
 ```
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE) — free to use, modify, and distribute.
 
 ---
 
 ## 🔮 Próximas Funcionalidades
 - Plantillas predefinidas para diferentes estilos de portfolio  
 - Análisis más detallado de commits y contribuciones  
-- Sistema de plugins para funcionalidades extendidas  
+- Sistema de plugins para funcionalidades extendidas
+- More ideas comente here: https://github.com/marichu-kt/PortfolioHub/discussions
 
 ---
 
-> ⚠️ **Nota:** Recuerda que para usar **PortfolioHub** necesitas un token de acceso personal de GitHub con los permisos adecuados. **Nunca compartas tu token públicamente.**
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE) — free to use, modify, and distribute.
