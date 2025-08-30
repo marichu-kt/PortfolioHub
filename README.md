@@ -4,9 +4,6 @@
 ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38b2ac?logo=tailwind-css)
 # PortfolioHub - Tu Dashboard de GitHub
 
-## 🎥 Demo
-![Demo](./images/demo.gif)
-
 ---
 
 ## 📋 Tabla de Contenidos
