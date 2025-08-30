@@ -178,7 +178,7 @@ portfoliohub/
 - Plantillas predefinidas para diferentes estilos de portfolio  
 - Análisis más detallado de commits y contribuciones  
 - Sistema de plugins para funcionalidades extendidas
-- More ideas comente here: https://github.com/marichu-kt/PortfolioHub/discussions
+- More ideas comente here: [Discussions](https://github.com/marichu-kt/PortfolioHub/discussions)
 
 ---
 
