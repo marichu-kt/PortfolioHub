@@ -19,6 +19,7 @@
 
 ## 🚀 Descripción del Proyecto
 PortfolioHub es una aplicación web moderna construida con Next.js que permite a los desarrolladores crear un portfolio personalizado utilizando datos de su cuenta de GitHub. La aplicación requiere un token de acceso personal de GitHub para obtener información detallada del usuario y presentarla en un dashboard visualmente atractivo con estadísticas, gráficos y elementos interactivos.
+
 ---
 ## 🎥 Demo
 ![Demo](./images/demo.gif)
