@@ -87,7 +87,7 @@ El token debe tener los siguientes permisos:
 
 1. **Clonar el Repositorio**
    ```bash
-   git clone <url-del-repositorio>
+   git clone https://github.com/marichu-kt/PortfolioHub
    cd portfoliohub
    ```
 
