@@ -16,7 +16,6 @@
 - [Requisitos del Sistema](#-requisitos-del-sistema)
 - [Instalación y Configuración](#-instalación-y-configuración)
 - [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Uso y Personalización](#-uso-y-personalización)
 - [Próximas Funcionalidades](#-próximas-funcionalidades)
 - [Licencia](#-licencia)
 ---
