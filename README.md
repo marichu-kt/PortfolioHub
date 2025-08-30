@@ -179,6 +179,23 @@ portfoliohub/
 
 ---
 
-## 📜 Licencia
+## 🔖 Uso de referencias de autor de las texturas de los planetas
 
-This project is licensed under the [MIT License](LICENSE) — free to use, modify, and distribute.
+Para respetar los **derechos de autor y atribuciones de las imágenes utilizadas (en las imagenes de las texturas de los planetas exclusivamente)**, he empleado la herramienta:
+
+👉 [**SaferLayer**](https://saferlayer.com/)
+
+Esta herramienta permite incrustar sobre las imágenes la referencia del autor o a la actividad a la que se destina la misma, garantizando la correcta atribución de los créditos de forma clara dentro del sitio web evitando cualquier tipo de borrado de los mismo con Inteligencia Artificial.
+
+---
+
+## 📫 Contacto
+
+Si tienes preguntas o deseas aportar sugerencias, puedes escribirme a:  
+[marichu.private@proton.me](mailto:marichu.private@proton.me)
+
+---
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo la **Licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
