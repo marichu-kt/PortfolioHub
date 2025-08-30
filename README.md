@@ -2,76 +2,78 @@
 ![Next.js](https://img.shields.io/badge/Next.js-13.0+-black?logo=next.js)
 ![React](https://img.shields.io/badge/React-18.0+-61dafb?logo=react)
 ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38b2ac?logo=tailwind-css)
-# PortfolioHub - Tu Dashboard de GitHub
+
+# PortfolioHub - Your GitHub Dashboard
 ![Banner](images/banner.png)
-## 📋 Tabla de Contenidos
-- [Descripción del Proyecto](#-descripción-del-proyecto)
-- [Características y Funcionalidades](#-características-y-funcionalidades)
-- [Tecnologías Utilizadas](#-tecnologías-utilizadas)
-- [Requisitos del Sistema](#-requisitos-del-sistema)
-- [Instalación y Configuración](#-instalación-y-configuración)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Próximas Funcionalidades](#-próximas-funcionalidades)
-- [Licencia](#-licencia)
+
+## 📋 Table of Contents
+- [Project Description](#-project-description)
+- [Features and Functionality](#-features-and-functionality)
+- [Technologies Used](#-technologies-used)
+- [System Requirements](#-system-requirements)
+- [Installation and Setup](#-installation-and-setup)
+- [Project Structure](#-project-structure)
+- [Upcoming Features](#-upcoming-features)
+- [License](#-license)
 ---
 
-## 🚀 Descripción del Proyecto
-PortfolioHub es una aplicación web moderna construida con Next.js que permite a los desarrolladores crear un portfolio personalizado utilizando datos de su cuenta de GitHub. La aplicación requiere un token de acceso personal de GitHub para obtener información detallada del usuario y presentarla en un dashboard visualmente atractivo con estadísticas, gráficos y elementos interactivos.
+## 🚀 Project Description
+PortfolioHub is a modern web application built with Next.js that allows developers to create a personalized portfolio using data from their GitHub account. The application requires a personal GitHub access token to retrieve detailed user information and present it in a visually appealing dashboard with statistics, charts, and interactive elements.
 
 ---
 ## 🎥 Demo
 ![Demo](./images/demo.gif)
 ---
-## ✨ Características y Funcionalidades
+## ✨ Features and Functionality
 
-### 📊 Dashboard de Estadísticas
-- **Perfil del usuario:** Información básica del usuario de GitHub  (logo, usuario y biografia)
-- **Estadísticas de perfil:** las estrellas totales, los forks totales, los repositorios totales, asi como las estrellas promedio de cada repo, los commits totales y los lenguajes totales usados.
-- **Gráficos de lenguajes:** Visualización de los lenguajes de programación utilizados  en formato de grafico de queso
-- **Calendario de contribuciones:** Mapa de calor de commits y actividad  
-- **Iconos de lenguajes:** Muestra los logos de los lenguajes de programacion usados.  
-- **Estadísticas avanzadas:** Métricas detalladas de repositorios y actividad  
+### 📊 Statistics Dashboard
+- **User profile:** Basic GitHub user information (logo, username, and bio)  
+- **Profile statistics:** total stars, total forks, total repositories, as well as the average stars per repo, total commits, and total languages used.  
+- **Language charts:** Visualization of programming languages used in pie chart format  
+- **Contribution calendar:** Heatmap of commits and activity  
+- **Language icons:** Displays the logos of the programming languages used.  
+- **Advanced statistics:** Detailed repository and activity metrics  
 
-### 🎨 Componentes Interactivos
-- **Temas personalizables:** Interfaz con modo claro y oscuro (ThemeSwitch)  
-- **Exportación a PDF:** Generación del portfolio  en PDF para descargar y compartir.
-- **Compartición via QR:** Generación de código QR para compartir el portfolio fácilmente
-- **Planetas rotatorios:** Esta funcionalidad extra esta disponible en el codigo para mayor personalizacion, pero esta desactivada para la Demo para una mayor claridad.  
-- **Filtros de repositorios:** Búsqueda y filtrado de repositorios por lenguaje o por estrellas  
-- **Editor de código en vivo:** Posibilidad de personalizar y ejecutar secciones de código  
+### 🎨 Interactive Components
+- **Customizable themes:** Interface with light and dark mode (ThemeSwitch)  
+- **PDF export:** Generate the portfolio in PDF format for download and sharing.  
+- **QR sharing:** Generate QR code to easily share the portfolio  
+- **Rotating planets:** This extra feature is available in the code for greater customization, but it is disabled in the Demo for clarity.  
+- **Repository filters:** Search and filter repositories by language or stars  
+- **Live code editor:** Ability to customize and run code sections  
 ---
 
-## 🛠 Tecnologías Utilizadas
+## 🛠 Technologies Used
 
 ### Frontend
-- **Next.js 13+:** Framework React con renderizado híbrido (SSG/SSR)  
-- **React 18+:** Biblioteca principal de interfaz de usuario  
-- **Tailwind CSS:** Framework de CSS utility-first para estilos  
-- **Context API:** Gestión del estado global de la aplicación  
+- **Next.js 13+:** React framework with hybrid rendering (SSG/SSR)  
+- **React 18+:** Main UI library  
+- **Tailwind CSS:** Utility-first CSS framework for styling  
+- **Context API:** Global state management for the application  
 
-### APIs y Servicios
-- **GitHub REST API:** Obtención de datos de usuario y repositorios  
-- **GitHub GraphQL API:** Consultas específicas para datos detallados  
+### APIs and Services
+- **GitHub REST API:** Retrieve user and repository data  
+- **GitHub GraphQL API:** Specific queries for detailed data  
 
-### Utilidades y Librerías
-- **React Loadable:** Carga *lazy* de componentes  
-- **QR Code Generation:** Generación de códigos QR para compartir  
-- **PDF Generation:** Creación de documentos PDF para exportación  
-- **Chart Libraries:** Visualización de datos en gráficos  
+### Utilities and Libraries
+- **React Loadable:** Lazy loading of components  
+- **QR Code Generation:** Generate QR codes for sharing  
+- **PDF Generation:** Create PDF documents for export  
+- **Chart Libraries:** Data visualization in charts  
 
 ---
 
-## 📋 Requisitos del Sistema
+## 📋 System Requirements
 
-### Requisitos Mínimos
-- Node.js 16.8.0 o superior  
-- npm 7.0 o superior  
-- Token de acceso personal de GitHub con los *scopes* adecuados  
+### Minimum Requirements
+- Node.js 16.8.0 or higher  
+- npm 7.0 or higher  
+- Personal GitHub access token with the appropriate *scopes*  
 
-### Scopes Requeridos del Token de GitHub
-El token debe tener los siguientes permisos:
+### Required GitHub Token Scopes
+The token must have the following permissions:
 
-- `repo` (incluyendo todos los sub-permisos)  
+- `repo` (including all sub-permissions)  
 - `read:user`  
 - `user:email`  
 - `project`  
@@ -80,20 +82,20 @@ El token debe tener los siguientes permisos:
 
 ---
 
-## 💻 Instalación y Configuración
+## 💻 Installation and Setup
 
-1. **Clonar el Repositorio**
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/marichu-kt/PortfolioHub
    cd portfoliohub
    ```
 
-2. **Instalar Dependencias**
+2. **Install Dependencies**
    ```bash
    npm install
    ```
 
-3. **Obtener y Configurar el Token de GitHub**  
+3. **Get and Configure the GitHub Token**  
    To run the script, you **must create and configure a [`.env.local`](https://github.com/marichu-kt/PortfolioHub/blob/main/.env.local) file** in the root of the project with the content:
    ```env
    NEXT_PUBLIC_GITHUB_TOKEN=XXXXXXXXXXXXXXXXXXX
@@ -102,18 +104,18 @@ El token debe tener los siguientes permisos:
    Replace `XXXXXXXXXXXXXXXXXXX` with:
    - `GITHUB_TOKEN`: your personal access token from [GitHub Settings → Developer settings → Personal access tokens](https://github.com/settings/tokens)
 
-> ⚠️ **Nota:** Recuerda que para usar **PortfolioHub** necesitas un token de acceso personal de GitHub con los permisos adecuados. **Nunca compartas tu token públicamente.**
+> ⚠️ **Note:** To use **PortfolioHub**, you need a personal GitHub access token with the appropriate permissions. **Never share your token publicly.**
 
 
-4. **Ejecutar la Aplicación**
+4. **Run the Application**
    ```bash
    npm run dev
    ```
-   La aplicación estará disponible en [http://localhost:3000](http://localhost:3000)
+   The application will be available at [http://localhost:3000](http://localhost:3000)
 
    <img src="images/execution.png" alt="Execution" width="400"/>
 
-6. **Construir para Producción**
+6. **Build for Production**
    ```bash
    npm run build
    npm start
@@ -121,20 +123,20 @@ El token debe tener los siguientes permisos:
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Project Structure
 ```text
 portfoliohub/
-├── public/                 # Archivos estáticos
-│   ├── images/            # Imágenes generales
-│   │   └── logo.png       # Logo de la aplicación
-│   └── textures/          # Texturas para componentes
+├── public/                 # Static files
+│   ├── images/            # General images
+│   │   └── logo.png       # Application logo
+│   └── textures/          # Textures for components
 │       ├── earth.jpg
 │       ├── jupiter.jpg
 │       ├── mars.jpg
 │       ├── moon.jpg
 │       └── venus.jpg
 ├── src/
-│   ├── components/        # Componentes de React
+│   ├── components/        # React components
 │   │   ├── Achievements.js
 │   │   ├── AdvancedStats.js
 │   │   ├── AnimatedSection.js
@@ -148,54 +150,54 @@ portfoliohub/
 │   │   ├── RotatingPlanet.js
 │   │   ├── Skills.js
 │   │   └── ThemeSwitch.js
-│   ├── context/           # Contextos de React
+│   ├── context/           # React contexts
 │   │   └── ThemeContext.js
 │   ├── hooks/             # Custom Hooks
 │   │   └── useAuth.js
-│   ├── pages/             # Páginas de Next.js
-│   │   ├── _app.js        # Componente principal de la app
-│   │   ├── customize.js   # Página de personalización
-│   │   ├── dashboard.js   # Dashboard principal
-│   │   └── index.js       # Página de inicio
-│   ├── services/          # Servicios y APIs
-│   ├── styles/            # Estilos globales
+│   ├── pages/             # Next.js pages
+│   │   ├── _app.js        # Main app component
+│   │   ├── customize.js   # Customization page
+│   │   ├── dashboard.js   # Main dashboard
+│   │   └── index.js       # Home page
+│   ├── services/          # Services and APIs
+│   ├── styles/            # Global styles
 │   │   └── globals.css
-│   └── utils/             # Utilidades
+│   └── utils/             # Utilities
 │       └── languageicons.js
-├── next.config.js         # Configuración de Next.js
-├── tailwind.config.js     # Configuración de Tailwind CSS
-├── postcss.config.js      # Configuración de PostCSS
-├── package.json           # Dependencias y scripts
-└── README.md              # Este archivo
+├── next.config.js         # Next.js configuration
+├── tailwind.config.js     # Tailwind CSS configuration
+├── postcss.config.js      # PostCSS configuration
+├── package.json           # Dependencies and scripts
+└── README.md              # This file
 ```
 
 ---
 
-## 🔮 Próximas Funcionalidades
-- Plantillas predefinidas para diferentes estilos de portfolio  
-- Análisis más detallado de commits y contribuciones  
-- Sistema de plugins para funcionalidades extendidas
-- More ideas comente here: [Discussions](https://github.com/marichu-kt/PortfolioHub/discussions)
+## 🔮 Upcoming Features
+- Predefined templates for different portfolio styles  
+- More detailed commit and contribution analysis  
+- Plugin system for extended features  
+- More ideas comment here: [Discussions](https://github.com/marichu-kt/PortfolioHub/discussions)
 
 ---
 
-## 🔖 Uso de referencias de autor de las texturas de los planetas
+## 🔖 Use of Author References for Planet Textures
 
-Para respetar los **derechos de autor y atribuciones de las imágenes utilizadas (en las imagenes de las texturas de los planetas exclusivamente)**, he empleado la herramienta:
+To respect the **copyright and attributions of the images used (exclusively for the planet texture images)**, I have used the tool:
 
 👉 [**SaferLayer**](https://saferlayer.com/)
 
-Esta herramienta permite incrustar sobre las imágenes la referencia del autor o a la actividad a la que se destina la misma, garantizando la correcta atribución de los créditos de forma clara dentro del sitio web evitando cualquier tipo de borrado de los mismo con Inteligencia Artificial.
+This tool allows embedding the author reference or the intended activity into the images, ensuring proper credit attribution clearly within the website and preventing their removal with Artificial Intelligence.
 
 ---
 
-## 📫 Contacto
+## 📫 Contact
 
-Si tienes preguntas o deseas aportar sugerencias, puedes escribirme a:  
+If you have questions or want to provide suggestions, you can write to me at:  
 [marichu.private@proton.me](mailto:marichu.private@proton.me)
 
 ---
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto está licenciado bajo la **Licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+This project is licensed under the **MIT License**. See the file [LICENSE](LICENSE) for more details.
