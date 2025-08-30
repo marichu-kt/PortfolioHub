@@ -1,13 +1,10 @@
 # PortfolioHub - Tu Dashboard de GitHub
 
+## 🎥 Demo
 ![PortfolioHub](https://img.shields.io/badge/PortfolioHub-GitHub%2520Portfolio%2520Dashboard-blue)
 ![Next.js](https://img.shields.io/badge/Next.js-13.0+-black?logo=next.js)
 ![React](https://img.shields.io/badge/React-18.0+-61dafb?logo=react)
 ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38b2ac?logo=tailwind-css)
-
----
-
-## 🎥 Demo
 ![Demo](./images/demo.gif)
 
 ---
