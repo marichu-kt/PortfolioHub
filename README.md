@@ -3,7 +3,7 @@
 ![React](https://img.shields.io/badge/React-18.0+-61dafb?logo=react)
 ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38b2ac?logo=tailwind-css)
 
-# PortfolioHub – Your Personal GitHub Dashboard 
+# PortfolioHub – Your Personal GitHub Dashboard 💼
 ![Banner](images/banner.png)
 
 ## 📋 Table of Contents
